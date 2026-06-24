@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { GraduationCap, MapPin, Trophy } from "lucide-react";
+import { CalendarDays, GraduationCap, MapPin } from "lucide-react";
 
 export default function About() {
   return (
@@ -66,9 +66,9 @@ export default function About() {
                     <p className="font-semibold text-white">KIIT University</p>
                   </div>
                   <div className="rounded-lg border border-white/10 bg-white/5 p-4">
-                    <Trophy className="mb-3 text-acid" size={20} />
-                    <p className="text-sm text-slate-400">CGPA</p>
-                    <p className="font-semibold text-white">8.1</p>
+                    <CalendarDays className="mb-3 text-acid" size={20} />
+                    <p className="text-sm text-slate-400">Timeline</p>
+                    <p className="font-semibold text-white">2021-2025</p>
                   </div>
                 </div>
               </div>
